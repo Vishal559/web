@@ -328,3 +328,68 @@ color:#fff;
 .test{
 	margin-top: .5%;
 }
+.btn{
+
+width:20%;
+	position:absolute;
+	top:60%;
+	left:40%;
+	transform:translate(-50% -50%);
+	padding:10px;
+	background:transparent;
+	box-sizing: border-box;
+	
+	font-size: 25px;
+	border-radius:50px;
+	border:2px solid white;
+	color:#fff;
+}
+.btn:hover{
+	background-color: white;
+	color :black;
+}
+
+
+#nav-bar{
+
+	position:sticky;
+	top:0;
+	z-index:10;
+}
+.name2{
+	animation:colorchangeprogrammer 1s infinite;
+}
+@keyframes colorchangeprogrammer{
+	0%{color:red;}
+	25%{color:#bf55ec;}
+	50%{color:white;}
+	100%{color:#bf55ec;}
+}
+@media only screen and (max-width:1180px;){
+
+	.name{
+		width:100%;
+		padding:0 50px;
+	}
+}
+@media only screen and (max-width:1180px;){
+
+	.name2{
+		width:100%;
+		padding:0 50px;
+	}
+}
+@media only screen and (max-width:480px;){
+	.name{
+		font-size:10px;
+	}
+
+}
+
+
+
+
+
+
+
+
